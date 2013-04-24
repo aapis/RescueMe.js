@@ -27,9 +27,6 @@ body {
 	line-height: 1;
 }
 
-#create-todo {
-	position: relative;
-}
 
 input.check{
 	float: left;
