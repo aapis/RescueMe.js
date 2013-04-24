@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>RescueMe</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="lib/css/application.css" media="all" rel="stylesheet" type="text/css"/>
+		<link href="lib/css/bootstrap-responsive.min.css" media="all" rel="stylesheet" type="text/css"/>
+		<link href="lib/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css"/>
+	</head>
+
+	<body>
+
+		<!-- Todo App Interface -->
+
+		<div class="container">
+			<div class="row-fluid">
+			<div class="span4">
+				<div class="title">
+					<h1>Todos</h1>
+				</div>
+				<div id="create-todo" class="input-prepend">
+					<input id="new-todo" placeholder="What needs to be done?" type="text" />
+
+					<input id="check-all" type="checkbox"/>
+					<label for="check-all">Mark all as complete</label>
+				</div>
+			</div>
+			<div class="span8">
+				<div id="todos">
+					<ul id="todo-list"></ul>
+				</div>
+
+				<div id="todo-stats"></div>
+			</div>
+
+			
+		</div>
+
+		<script src="lib/js/detect.js"></script>
+		<script src="lib/js/application.js"></script>
+		<script src="lib/js/bootstrap.min.js"></script>
+	</body>
+
+</html>
