@@ -23,22 +23,10 @@ body {
 	color: #333333;
 }
 
-#todoapp h1 {
-	font-size: 36px;
-	font-weight: bold;
-	text-align: center;
-	padding: 20px 0 30px 0;
-	line-height: 1;
-}
-
 .done {
 	color: #468847;
 	background-color: #dff0d8;
 	border-color: #468847;
-}
-
-.title {
-	margin-top: 30px;
 }
 
 .new {
@@ -62,7 +50,10 @@ input.check{
 	font-size: 24px;
 	line-height: 1.1em;
 	border-bottom: 1px solid #cccccc;
-	text-transform: capitalize;
+	/*text-transform: capitalize;*/
 }
 
+.container .row-fluid {
+	padding-top: 5%;
+}
 

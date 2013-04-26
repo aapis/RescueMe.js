@@ -10,31 +10,34 @@
 	</head>
 
 	<body>
-
-		<!-- Todo App Interface -->
-
+		<div class="navbar navbar-fixed-top navbar-inverse">
+			<div class="navbar-inner">
+				<div class="container-fluid">
+					<a class="brand" href="#">RescueMe v1.0.0</a>
+				</div>
+			</div>
+		</div>
 		<div class="container">
 			<div class="row-fluid">
-			<div class="control">
-				<div class="title">
-					<h1>RescueMe <small>v1.0.0</h1>
+				<div class="control">
+					<div class="title">
+						<div id="create-todo" class="well clearfix">
+							<input class="new" placeholder="What needs to be done?" type="text" />
 
-					<div id="create-todo" class="well clearfix">
-						<input class="new" placeholder="What needs to be done?" type="text" />
-
-						<p class="nav-header">Settings</p>
-						<button class="btn btn-primary pull-right" id="check-all">All Complete?</button>
+							<p class="nav-header">Settings</p>
+							<button class="btn btn-primary pull-right" id="check-all">All Complete?</button>
+						</div>
 					</div>
-			</div>
-			<div class="content">
-				<div id="todos">
-					<ul id="todo-list"></ul>
+					<div class="content">
+						<div id="todos">
+							<ul id="todo-list"></ul>
+						</div>
+
+						<div id="todo-stats"></div>
+					</div>
 				</div>
-
-				<div id="todo-stats"></div>
-			</div>
-
 			
+			</div>
 		</div>
 
 		<script src="lib/js/detect.js"></script>
