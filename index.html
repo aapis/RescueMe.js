@@ -10,12 +10,14 @@
 	</head>
 
 	<body>
-		<div class="navbar navbar-fixed-top navbar-inverse">
-			<div class="navbar-inner">
-				<div class="container-fluid">
-					<a class="brand" href="https://github.com/aapis/RescueMe.js" target="_blank" title="Fork me on Github!">RescueMe v1.0.0</a>
-				</div>
-			</div>
+		<div class="navbar navbar-static-top navbar-inverse">
+		  <div class="navbar-inner">
+			<a class="brand" href="https://github.com/aapis/RescueMe.js" target="_blank" title="Fork me on Github!">RescueMe v1.0.0</a>
+			<ul class="nav">
+				<!-- <li class="active"><a href="#">Home</a></li> -->
+				<li><a href="#" class="settings">Settings</a></li>
+			</ul>
+		  </div>
 		</div>
 		<div class="container">
 			<div class="row-fluid">
@@ -26,9 +28,9 @@
 						<button class="btn btn-primary pull-right" id="check-all">All Complete?</button>
 					</div>
 					<div class="content">
-						<div class="nav well span4">
+						<div class="well span4">
 							<p class="nav-header">Lists <a class="reset pull-right" href="#">Reset</a></p>
-							<ul class="lists-list">
+							<ul class="nav nav-list lists-list">
 								<li id="complete"><a href="#">Completed</a></li>
 								<li id="in_progress"><a href="#">In progress</a></li>
 							</ul>
