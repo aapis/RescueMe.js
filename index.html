@@ -20,17 +20,21 @@
 		<div class="container">
 			<div class="row-fluid">
 				<div class="control">
-					<div class="title">
-						<div id="create-todo" class="well clearfix">
-							<input class="new" placeholder="What needs to be done?" type="text" />
+					<div id="create-todo" class="well clearfix input-append span12">
+						<input class="new" placeholder="What needs to be done?" type="text" />
 
-							<p class="nav-header">Settings</p>
-							<button class="btn btn-primary pull-right" id="check-all">All Complete?</button>
-						</div>
+						<button class="btn btn-primary pull-right" id="check-all">All Complete?</button>
 					</div>
 					<div class="content">
-						<div id="todos">
-							<ul id="todo-list"></ul>
+						<div class="nav well span4">
+							<p class="nav-header">Lists <a class="reset pull-right" href="#">Reset</a></p>
+							<ul class="lists-list">
+								<li id="complete"><a href="#">Completed</a></li>
+								<li id="in_progress"><a href="#">In progress</a></li>
+							</ul>
+						</div>
+						<div id="todos" class="span8">
+							<ul id="todo-list" class="nav-inverse"></ul>
 						</div>
 
 						<div id="todo-stats"></div>
