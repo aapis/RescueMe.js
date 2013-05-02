@@ -76,3 +76,7 @@ input.check{
 .container .row-fluid {
 	padding-top: 20px;
 }
+
+.commands li {
+	padding: 3px 0px;
+}
