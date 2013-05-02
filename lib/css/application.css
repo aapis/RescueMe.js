@@ -77,6 +77,20 @@ input.check{
 	padding-top: 20px;
 }
 
-.commands li {
+.static li {
 	padding: 3px 0px;
 }
+
+/*html .navbar-inverse .navbar-inner {
+	background-image: -ms-linear-gradient(bottom left, #940000 0%, #EF6D3E 100%);
+	background-image: -moz-linear-gradient(bottom left, #940000 0%, #EF6D3E 100%);
+	background-image: -o-linear-gradient(bottom left, #940000 0%, #EF6D3E 100%);
+	background-image: -webkit-gradient(linear, left bottom, right top, color-stop(0, #940000), color-stop(1, #EF6D3E));
+	background-image: -webkit-linear-gradient(bottom left, #940000 0%, #EF6D3E 100%);
+	background-image: linear-gradient(to top right, #940000 0%, #EF6D3E 100%);
+	border-color: #940000;
+}
+
+html .navbar-inverse .navbar-inner > * {
+	color: #F17F55 !important;
+}*/

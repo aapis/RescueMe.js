@@ -35,11 +35,20 @@
 								<li id="in_progress"><a href="#">In progress</a></li>
 							</ul>
 							<p class="nav-header">Commands</p>
-							<ul class="nav nav-list commands">
+							<ul class="nav nav-list commands static">
 								<li><code>l, nl, list - New list</code></li>
 								<li><code>al, addToList - New task in $list</code></li>
 								<!-- <li><code>el, editList</code> <p>Edit an existing list.</p></li> -->
 								<li><code>et, edit - Edit task</code></li>
+							</ul>
+							<p class="nav-header">Usage</p>
+							<ul class="nav nav-list static">
+								<li><code>command:(int|string) string</code></li>
+							</ul>
+							<p class="nav-header">Examples</p>
+							<ul class="nav nav-list static">
+								<li>Editing: <code>et:0 New first task text</code></li>
+								<li>Adding: <code>al:in_progress In progress task</code></li>
 							</ul>
 						</div>
 						<div id="todos" class="span8">
