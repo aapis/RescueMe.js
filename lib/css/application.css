@@ -74,11 +74,15 @@ input.check{
 } 
 
 .container .row-fluid {
-	padding-top: 20px;
+	padding: 20px 0px;
 }
 
 .static li {
 	padding: 3px 0px;
+}
+
+.close.delete {
+	margin-right: 8px;
 }
 
 /*html .navbar-inverse .navbar-inner {
