@@ -84,17 +84,34 @@ input.check{
 .close.delete {
 	margin-right: 8px;
 }
-
-/*html .navbar-inverse .navbar-inner {
-	background-image: -ms-linear-gradient(bottom left, #940000 0%, #EF6D3E 100%);
-	background-image: -moz-linear-gradient(bottom left, #940000 0%, #EF6D3E 100%);
-	background-image: -o-linear-gradient(bottom left, #940000 0%, #EF6D3E 100%);
-	background-image: -webkit-gradient(linear, left bottom, right top, color-stop(0, #940000), color-stop(1, #EF6D3E));
-	background-image: -webkit-linear-gradient(bottom left, #940000 0%, #EF6D3E 100%);
-	background-image: linear-gradient(to top right, #940000 0%, #EF6D3E 100%);
-	border-color: #940000;
+/*8bea4c
+f99b05*/
+html .navbar-inverse .navbar-inner {
+	background: #f99b05;
+	border-color: rgba(0,0,0,0.2);
 }
 
-html .navbar-inverse .navbar-inner > * {
-	color: #F17F55 !important;
-}*/
+html .navbar-inverse .navbar-inner a {
+	color: white !important;
+}
+
+/*******************************
+ * Phone portrait
+ */
+@media all and (max-device-width : 568px) {
+	.well.span4 {
+		display: none !important;
+	}
+
+	#create-todo button {
+		font-size: 10px;
+	}
+
+	#create-todo .new {
+		width: 160px;
+	}
+
+	.navbar-inner .nav {
+		display: none !important;
+	}
+}
